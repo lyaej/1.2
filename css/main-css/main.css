@@ -1,0 +1,112 @@
+/*      ARTICLE         */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+/*      LIVE QUOTES SECTION         */
+.live-quotes-section {
+
+}
+
+/*      ARTICLE         */
+.article-section {
+    margin-bottom: 2rem;
+}
+
+.article-cover {
+    width: 100%;
+    max-width: var(--article-cover-width);
+    max-height: var(--article-cover-height);
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
+
+/*      ONE-SHOT         */
+.one-shot-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.one-shot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.one-shot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/*      SHORT STORY     */
+.short-stories-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.short-story-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.short-story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/*       SERIES       */
+.series-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.series-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.series {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.series-story-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.story-series {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

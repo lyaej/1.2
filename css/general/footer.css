@@ -1,0 +1,32 @@
+/* FOOTER */
+.footer-container {
+    position: fixed;
+    top: 20rem;
+    right: 8%;
+    bottom: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.author-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.author-image {
+    border-radius: 50%;
+    border: 2px solid var(--text-color);
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}

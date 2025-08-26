@@ -1,0 +1,109 @@
+/* ------- HEADER ------- */
+
+/* ------- LOGO ------- */
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+
+/* ------- NAV BAR ------- */
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.nav a {
+    transition: all 0.3s ease;
+}
+
+
+.nav a:hover, .nav a:active {
+    text-shadow: 0 0 1rem #bf3880, 0 0 1rem #bf3880;
+    color: #bf3880;
+    font-weight: 700;
+}
+
+
+/* ------- SEARCH AND SEARCH BAR ------- */
+
+.searchbar {
+    position: relative;
+}
+
+#searchbar {
+    width: 0;
+    padding: 1rem;
+    font-size: var(--font-size-paragraph);
+    text-align: left;
+    color: var(--text-color);
+    border: 2px solid var(--pink);
+    border-radius: 10px;
+    background: var(--bg-color);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s ease;
+}
+
+#searchbar:hover {
+    filter: drop-shadow(0 0 1.5rem #bf3880);
+    transform: scale(1.05);
+}
+
+#toggle-search:checked ~ #searchbar {
+    width: 20rem;
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.search {
+    position: absolute;
+    top: 0;
+    right: -4.5rem;
+    cursor: pointer;
+}
+
+.search-img {
+    height: 4rem;
+    transition: all 0.3s ease;
+}
+
+.search-img:active {
+    filter: drop-shadow(0 0 2rem #bf3880);
+    transform: scale(1.2);
+}
+
+
+/* ------- DARK MODE ------- */ 
+
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+
+.dark-mode-toggle img {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.dark-mode-toggle:active {
+    filter: drop-shadow(0 0 1rem #bf3880);
+    transform: scale(1.2);
+}

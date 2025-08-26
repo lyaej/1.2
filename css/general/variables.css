@@ -1,0 +1,54 @@
+:root {
+
+    /* FONT PROPERTIES */
+
+    --font-size-h1: 4.7rem;
+    --font-size-h2: 3.9rem;
+    --font-size-h3: 3.3rem;
+    --font-size-h4: 2.7rem;
+    --font-size-h5: 2.3rem;
+    --font-size-h6: 1.9rem;
+    --font-size-paragraph: 1.6rem;
+    
+    --title-letter-spacing: .3rem;
+    --letter-spacing: .2rem;
+
+    /* LIGHT MODE */
+
+    --bg-color: #eae6f0; 
+    --text-color: #0c0c0c;
+    --accent-color: #bf3880;
+
+    /* PALETTE */
+
+    --lilac: #eae6f0;
+    --rose-quartz: #f7cac9;
+    --pink: #d68fb0;
+    --fuchsia: #bf3880;
+
+
+    /* DARKER SHADE */
+    --grey: #0c0c0c;
+
+    /* COVER SIZES */
+
+    --border-radius: 2rem;
+    /* --cover-shadow: 0.5rem 0.5rem 1rem var(--grey); */
+
+    /* ARTICLE */
+
+    --article-cover-width: 100rem;
+    --article-cover-height: 50rem;
+    
+    /* BOOK COVER (LANDING PAGE) */
+    --book-cover-width-landing: 15rem;
+    --book-cover-height-landing: 23rem;
+
+
+    /* BOOK COVER (SPECIFIC PAGE) */
+    --book-cover-width-specific: 51.2rem;
+    --book-cover-height-specific: 80rem;
+    
+
+}
+
